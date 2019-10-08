@@ -1,0 +1,77 @@
+2019-10-02 12:07:08,583 INFO getting app erpnext
+2019-10-02 12:07:08,604 INFO git clone https://github.com/frappe/erpnext --branch master --depth 1 --origin upstream
+2019-10-02 12:18:53,050 INFO installing erpnext
+2019-10-02 12:18:53,051 INFO ./env/bin/pip install -q  -e ./apps/erpnext 
+2019-10-02 12:27:03,284 INFO bench build --app erpnext
+2019-10-02 13:47:07,966 INFO git config --unset-all remote.upstream.fetch
+2019-10-02 13:47:07,983 INFO git config --add remote.upstream.fetch '+refs/heads/*:refs/remotes/upstream/*'
+2019-10-02 13:47:07,987 INFO git fetch upstream --unshallow
+2019-10-02 14:10:29,839 INFO git checkout master
+2019-10-02 14:10:30,041 INFO git merge upstream/master
+2019-10-02 14:10:34,548 INFO git config --unset-all remote.upstream.fetch
+2019-10-02 14:10:34,554 INFO git config --add remote.upstream.fetch '+refs/heads/*:refs/remotes/upstream/*'
+2019-10-02 14:10:34,559 INFO git fetch upstream 
+2019-10-02 14:10:37,030 INFO git checkout master
+2019-10-02 14:10:38,058 INFO git merge upstream/master
+2019-10-02 14:13:03,085 INFO git config --unset-all remote.upstream.fetch
+2019-10-02 14:13:03,091 INFO git config --add remote.upstream.fetch '+refs/heads/*:refs/remotes/upstream/*'
+2019-10-02 14:13:03,096 INFO git fetch upstream 
+2019-10-02 14:13:12,981 INFO git checkout version-11
+2019-10-02 14:13:13,076 INFO git merge upstream/version-11
+2019-10-02 14:13:19,029 INFO git config --unset-all remote.upstream.fetch
+2019-10-02 14:13:19,035 INFO git config --add remote.upstream.fetch '+refs/heads/*:refs/remotes/upstream/*'
+2019-10-02 14:13:19,040 INFO git fetch upstream 
+2019-10-02 14:13:22,167 INFO git checkout version-11
+2019-10-02 14:13:22,261 INFO git merge upstream/version-11
+2019-10-04 11:38:28,126 INFO creating new app dashboard
+2019-10-04 11:40:58,335 INFO installing dashboard
+2019-10-04 11:40:58,335 INFO ./env/bin/pip install -q  -e ./apps/dashboard 
+2019-10-05 12:29:48,812 INFO updating bench
+2019-10-05 12:29:48,833 INFO git pull
+2019-10-05 12:30:04,631 INFO ./env/bin/pip install Pillow
+2019-10-06 20:02:44,669 INFO updating bench
+2019-10-06 20:02:44,682 INFO git pull
+2019-10-06 20:02:56,555 INFO ./env/bin/pip install Pillow
+2019-10-06 21:13:53,482 INFO updating bench
+2019-10-06 21:13:53,517 INFO git pull
+2019-10-06 21:14:05,482 INFO ./env/bin/pip install Pillow
+2019-10-06 21:14:16,386 INFO pulling frappe
+2019-10-06 21:14:16,386 INFO git fetch --all
+2019-10-06 21:14:19,415 INFO git reset --hard upstream/version-11
+2019-10-06 21:14:19,973 INFO find . -name "*.pyc" -delete
+2019-10-06 21:14:25,802 INFO pulling erpnext
+2019-10-06 21:14:25,802 INFO git fetch --all
+2019-10-06 21:14:38,409 INFO git reset --hard upstream/version-11
+2019-10-06 21:14:39,393 INFO find . -name "*.pyc" -delete
+2019-10-06 21:14:40,179 INFO ./env/bin/pip install --upgrade pip
+2019-10-06 21:14:42,172 INFO ./env/bin/pip install -q -r /home/naztech/bench/requirements.txt
+2019-10-06 21:14:45,352 INFO installing frappe
+2019-10-06 21:14:45,352 INFO ./env/bin/pip install -q  -e ./apps/frappe 
+2019-10-06 21:14:48,340 INFO installing erpnext
+2019-10-06 21:14:48,340 INFO ./env/bin/pip install -q  -e ./apps/erpnext 
+2019-10-06 21:14:50,372 INFO installing dashboard
+2019-10-06 21:14:50,372 INFO ./env/bin/pip install -q  -e ./apps/dashboard 
+2019-10-06 21:14:52,224 INFO yarn install
+2019-10-06 21:23:32,288 INFO updating bench
+2019-10-06 21:23:32,292 INFO git pull
+2019-10-06 21:23:45,099 INFO ./env/bin/pip install Pillow
+2019-10-06 21:23:59,583 INFO pulling frappe
+2019-10-06 21:23:59,584 INFO git fetch --all
+2019-10-06 21:24:02,578 INFO git reset --hard upstream/version-11
+2019-10-06 21:24:03,195 INFO find . -name "*.pyc" -delete
+2019-10-06 21:24:14,867 INFO pulling erpnext
+2019-10-06 21:24:14,867 INFO git fetch --all
+2019-10-06 21:24:22,063 INFO git reset --hard upstream/version-11
+2019-10-06 21:24:23,220 INFO find . -name "*.pyc" -delete
+2019-10-06 21:24:23,920 INFO ./env/bin/pip install --upgrade pip
+2019-10-06 21:24:25,587 INFO ./env/bin/pip install -q -r /home/naztech/bench/requirements.txt
+2019-10-06 21:24:26,649 INFO installing frappe
+2019-10-06 21:24:26,650 INFO ./env/bin/pip install -q  -e ./apps/frappe 
+2019-10-06 21:24:31,077 INFO installing erpnext
+2019-10-06 21:24:31,077 INFO ./env/bin/pip install -q  -e ./apps/erpnext 
+2019-10-06 21:24:34,365 INFO installing dashboard
+2019-10-06 21:24:34,365 INFO ./env/bin/pip install -q  -e ./apps/dashboard 
+2019-10-06 21:24:37,179 INFO yarn install
+2019-10-06 21:29:05,529 INFO updating bench
+2019-10-06 21:29:05,530 INFO git pull
+2019-10-06 21:29:15,239 INFO ./env/bin/pip install Pillow

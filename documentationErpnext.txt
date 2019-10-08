@@ -1,0 +1,26 @@
+Date : 08 Oct, 2019
+Frappe Solution List:
+
+1. Updating 
+https://discuss.erpnext.com/t/your-system-is-being-updated-please-refresh-again-after-a-few-moments-after-running-bench-migrate/40197/18
+
+2. Html page button ebent
+https://discuss.erpnext.com/t/custom-button-onclick-handler/28574
+
+3. 
+
+
+
+#----------------------------------------------------
+#Git Cheat Code
+git config --global user.email shaarifulz@gmail.com
+git config --global user.name Sharifulz
+git pull origin master
+git remote add origin https://github.com/Sharifulz/frappe_erpnext.git
+git pull origin master
+git add .
+git commit -m "add alll"
+git push origin master
+
+
+

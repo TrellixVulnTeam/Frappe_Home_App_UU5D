@@ -1,0 +1,21 @@
+{
+ "content": null,
+ "creation": "2019-10-07 23:48:22.198140",
+ "docstatus": 0,
+ "doctype": "Page",
+ "icon": "fa fa-home",
+ "idx": 0,
+ "modified": "2019-10-07 23:48:22.198140",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "reminder",
+ "owner": "Administrator",
+ "page_name": "Reminder",
+ "restrict_to_domain": "Services",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Reminder"
+}
