@@ -23,4 +23,12 @@ git commit -m "add alll"
 git push origin master
 
 
+#-----------------------------------------------------
+Need to documentation
+1. troubleshoot app first look site_config.json
+2. Customize doctype form and communicate db
+3. Create custom app with render html template and db communiate
+4. Biometric device intregration
+
+
 
