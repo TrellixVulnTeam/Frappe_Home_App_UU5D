@@ -7,3 +7,14 @@ frappe.listview_settings['Employee'] = {
 		return indicator;
 	}
 };
+
+//------My Custom Code
+frappe.listview_settings['Employee'] = {
+	onload(listview) {
+		listview.page.add_menu_item('Show User Data', showSelectedData());
+	}
+};
+
+function showSelectedData(){
+	console.log("Data is here");
+}

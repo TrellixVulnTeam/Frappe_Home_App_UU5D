@@ -97,3 +97,10 @@ frappe.ui.form.on('Employee',{
 	}
 });
 cur_frm.cscript = new erpnext.hr.EmployeeController({frm: cur_frm});
+
+//-------------------------
+frappe.ui.form.on('Employee',{
+	save_to_device: function(frm) {
+		alert("Device clicked");
+	}
+});
